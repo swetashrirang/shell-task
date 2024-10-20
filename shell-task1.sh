@@ -8,5 +8,7 @@ elif [ $salary -gt 2000 -a $salary -le 40000 ];then
 echo "tax is :$((salary * 5/100))"
 elif [ $salary -gt 40000 ]; then
 echo "tax is : $((salary * 10/100))"
+elif [ $salary -eq 2000 ]; then
+echo "tax is : $(salary * 2/100))"
 fi
 
