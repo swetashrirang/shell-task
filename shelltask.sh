@@ -12,5 +12,7 @@ elif [ $operator = sub ];then
 echo "$((a-b)))"
 elif [ $operator = mul ];then
 echo "$((a*b))"
+elif [ $operator = div ];then
+echo "$((a/b))"
 fi
 
